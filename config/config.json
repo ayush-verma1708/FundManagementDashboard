@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fund-management-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fundManagementDashboard/FundManagementDashboardWebPart.js",
+          "manifest": "./src/webparts/fundManagementDashboard/FundManagementDashboardWebPart.manifest.json"
+        }
+      ]
+    },
+    "button-to-fund-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/buttonToFundManager/ButtonToFundManagerWebPart.js",
+          "manifest": "./src/webparts/buttonToFundManager/ButtonToFundManagerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FundManagementDashboardWebPartStrings": "lib/webparts/fundManagementDashboard/loc/{locale}.js",
+    "ButtonToFundManagerWebPartStrings": "lib/webparts/buttonToFundManager/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "fund-management-dashboard",
+    "libraryId": "b467b88b-061a-4615-bde4-53903ee864a9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FundManagementDashboard",
+    "solutionShortDescription": "FundManagementDashboard description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

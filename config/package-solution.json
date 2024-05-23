@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fund-management-dashboard-client-side-solution",
+    "id": "b467b88b-061a-4615-bde4-53903ee864a9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FundManagementDashboard description"
+      },
+      "longDescription": {
+        "default": "FundManagementDashboard description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fund-management-dashboard Feature",
+        "description": "The feature that activates elements of the fund-management-dashboard solution.",
+        "id": "ac2df44c-0ed0-4aa9-a487-3482fe944bf5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fund-management-dashboard.sppkg"
+  }
+}
